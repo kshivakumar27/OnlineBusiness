@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/OnlineBusiness/static/css/main.5e415e19.chunk.css",
+    "main.js": "/OnlineBusiness/static/js/main.2831f456.chunk.js",
+    "main.js.map": "/OnlineBusiness/static/js/main.2831f456.chunk.js.map",
+    "runtime-main.js": "/OnlineBusiness/static/js/runtime-main.9e5035d7.js",
+    "runtime-main.js.map": "/OnlineBusiness/static/js/runtime-main.9e5035d7.js.map",
+    "static/js/2.7d146745.chunk.js": "/OnlineBusiness/static/js/2.7d146745.chunk.js",
+    "static/js/2.7d146745.chunk.js.map": "/OnlineBusiness/static/js/2.7d146745.chunk.js.map",
+    "index.html": "/OnlineBusiness/index.html",
+    "static/css/main.5e415e19.chunk.css.map": "/OnlineBusiness/static/css/main.5e415e19.chunk.css.map",
+    "static/js/2.7d146745.chunk.js.LICENSE.txt": "/OnlineBusiness/static/js/2.7d146745.chunk.js.LICENSE.txt",
+    "static/media/cover.e67376cd.svg": "/OnlineBusiness/static/media/cover.e67376cd.svg",
+    "static/media/explore.d7aa59a7.svg": "/OnlineBusiness/static/media/explore.d7aa59a7.svg",
+    "static/media/globe.0d5a4d4c.png": "/OnlineBusiness/static/media/globe.0d5a4d4c.png",
+    "static/media/goOnline.b51c6972.svg": "/OnlineBusiness/static/media/goOnline.b51c6972.svg",
+    "static/media/logo.a21a5f5c.svg": "/OnlineBusiness/static/media/logo.a21a5f5c.svg",
+    "static/media/shop.d78f99ca.svg": "/OnlineBusiness/static/media/shop.d78f99ca.svg",
+    "static/media/star.41343d41.svg": "/OnlineBusiness/static/media/star.41343d41.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e5035d7.js",
+    "static/js/2.7d146745.chunk.js",
+    "static/css/main.5e415e19.chunk.css",
+    "static/js/main.2831f456.chunk.js"
+  ]
+}
