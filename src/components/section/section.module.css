@@ -1,0 +1,148 @@
+.image{
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.section{
+    display: flex;
+    color: #3F3D56;
+}
+
+.bulletGroup{
+    display: flex;
+    align-items: center;
+}
+
+.check{
+    height: 1.5rem;
+}
+
+.bullet{
+    margin: 0.5rem 0.25rem;
+}
+
+@media only screen and (max-width: 500px) {
+   .section{
+       max-width: 480px;
+       margin: 0 auto;
+       flex-direction: column;
+       color: #3F3D56;
+   } 
+   .content{
+        max-width: 80%;
+        margin: 1.5rem auto;
+   }
+
+   .head{
+       font-size: 1.8rem;
+       margin: 1rem 0;
+       color: #3F3D56;
+   }
+   .subtext{
+       margin: 1rem 0;
+       color: #3F3D56;
+   }
+   .image{
+       max-width: 80%;
+       margin: 1rem auto;
+       padding-top: 1rem;
+   }
+
+   .sectionRight{
+       margin: 1rem auto;
+       padding: 1rem 0;
+       color: #3F3D56;
+       padding-bottom: 3rem;
+   }
+   .sectionLeft{
+        margin: 1rem auto;
+        padding: 1rem 0;
+        color: #3F3D56;
+        padding-bottom: 3rem;
+   }
+}
+
+@media only screen and (min-width:501px){
+    .section{
+        max-width: 768px;
+        margin: 0.4rem auto;
+        flex-direction: column;
+    } 
+    .sectionRight{
+        margin: 1rem auto;
+        padding: 1rem 0;
+        color: #3F3D56;
+    }
+    .sectionLeft{
+         margin: 1rem auto;
+         padding: 1rem 0;
+         color: #3F3D56;
+    }
+    .content{
+         max-width: 80%;
+         margin: 1.5rem auto;
+    }
+ 
+    .head{
+        text-align: center;
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+    .subtext{
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .image{
+        max-width: 60%;
+        margin: 1rem auto;
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (min-width:992px){
+    .sectionRight{
+        max-width: 1100px;
+        margin: 1rem auto;
+        padding: 1rem 0;
+        color: #3F3D56;
+        display: flex;
+    }
+    .sectionLeft{
+        max-width: 1100px;
+        margin: 1rem auto;
+        padding: 1rem 0;
+        color: #3F3D56;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .sectionLeft > img{
+        max-width: 50%;
+    }
+
+    .sectionLeft .content{
+        padding-left: 1.4rem;
+    }
+
+    .sectionRight .content{
+        padding-left: 2rem;
+    }
+    .head{
+        text-align: left;
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+    .subtext{
+        margin: 1rem 0;
+        text-align: left;
+    }
+
+    .content{
+        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

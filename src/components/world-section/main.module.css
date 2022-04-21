@@ -1,0 +1,94 @@
+.main{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.world{
+    height: 10rem;
+}
+
+
+@media only screen and (max-width: 500px){
+    .main{
+        max-width: 480px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        padding: 3rem 1rem;
+        margin: 0 auto;
+    }
+
+    .head{
+        font-size: 1.8rem;
+        margin: 1rem auto;
+        text-align: center;
+        color: #3F3D56;
+    }
+
+    .subtext{
+        font-size: 1rem;
+        text-align: center;
+        color: #3F3D56;
+    }
+
+    .world{
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        margin: 2rem auto 1rem auto;
+    }
+}
+
+@media only screen and (min-width: 501px){
+    .main{
+        max-width: 768px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        padding: 3rem 1rem;
+        margin: 0 auto;
+    }
+
+    .head{
+        font-size: 2rem;
+        margin: 1rem auto;
+        text-align: center;
+        color: #3F3D56;
+    }
+
+    .subtext{
+        font-size: 1rem;
+        text-align: center;
+        color: #3F3D56;
+    }
+    .world{
+        object-fit: contain;
+        height: 20rem;
+        margin: 2rem;
+    }
+}
+
+@media only screen and (min-width:996px){
+    .main{
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+    .card{
+        width: 90%;
+    }
+    .world{
+        object-fit: contain;
+        height: 26rem;
+        margin: 2rem;
+    }
+}

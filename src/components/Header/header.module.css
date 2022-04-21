@@ -1,0 +1,163 @@
+.navbar{
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    height: 3rem;
+    width: auto;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.hero{
+    display: flex;
+}
+
+.bannerImg{
+    height: 12rem;
+    width: auto;
+}
+
+.head{
+    font-size: 4rem;
+    color: #3F3D56;
+}
+
+.subtext{
+    font-size: 1.2rem;
+    color: #3F3D56;
+}
+
+.cta{
+    display: block;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 10px;
+    margin: 1.6rem auto;
+    background: #FC8018;
+    color: #FFF;
+    box-shadow: 0 25px 28px rgba(252, 128, 24, 0.35);
+    cursor: pointer;
+}
+
+.cta:hover{
+    transform: scale(1.02);
+}
+
+.heroContent{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .navbar{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero{
+        flex-direction: column;
+        max-width: 480px;
+        margin: 2rem auto;
+        align-items: center;
+    }
+
+    .head{
+        max-width: 80%;
+        font-size: 2.6rem;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    
+    .subtext{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .bannerImg{
+        width: 100%;
+        margin: 4rem 0;
+    }
+
+    .heroContent{
+        flex-direction: column;
+    }
+
+    
+}
+
+@media only screen and (min-width: 501px) {
+    .navbar{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero{
+        flex-direction: column;
+        max-width: 768px;
+        margin: 2rem auto;
+        align-items: center;
+    }
+
+    .head{
+        max-width: 90%;
+        font-size: 3rem;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    
+    .subtext{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .bannerImg{
+        height: 19rem;
+        margin: 4rem 0;
+    }
+
+    .heroContent{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .land{
+        height: 100vh;
+    }
+
+    .bannerImg{
+        height: 24rem;
+    }
+
+    .heroContent{
+        margin: 1rem;
+    }
+
+    .navbar{
+        max-width: 1100px;
+        margin: 1.4rem auto;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .hero{
+        max-width: 1100px;
+        margin: 3rem auto;
+        padding: 1rem 1rem;
+        flex-direction: row;
+    }
+    .head{
+        margin: 0;
+        text-align: left;
+    }
+
+    .subtext{
+        margin-top: 1.2rem;
+        text-align: left;
+    }
+    .cta{
+        margin-top: 4rem;
+        margin-left: 0;
+    }
+}
